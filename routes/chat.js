@@ -1,7 +1,7 @@
 'use strict';
 
 const express = require('express');
-const { randomUUID: uuidv4 } = require('crypto');
+const uuidv4 = () => 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => { const r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8); return v.toString(16); });
 const groqService = require('../services/groqService');
 const hindsightService = require('../services/hindsightService');
 
