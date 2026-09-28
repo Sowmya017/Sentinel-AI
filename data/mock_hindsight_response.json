@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "source": "fallback_cache",
+  "retrieved_memories": [
+    "Sept 25, 02:14 AM: CAM_NORTH_GATE detected vehicle KA-04-XYZ idling for 22 minutes.",
+    "Sept 26, 01:15 AM: Vehicle KA-04-XYZ detected driving slowly along outer fence.",
+    "Sept 27, 03:30 AM: Vehicle KA-04-XYZ parked in blind spot of CAM_WEST_02."
+  ]
+}

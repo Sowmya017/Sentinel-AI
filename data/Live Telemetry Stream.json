@@ -1,0 +1,53 @@
+[
+  {
+    "event_id": "EVT-88390",
+    "timestamp": "2026-09-28T23:14:10Z",
+    "sensor_id": "CAM_MAIN_GATE",
+    "detection_type": "yolov5_object",
+    "object_data": {
+      "class": "sedan",
+      "color": "silver",
+      "license_plate": "TS-09-AB12",
+      "confidence_score": 0.98
+    },
+    "telemetry": {
+      "speed_kmh": 15.0,
+      "thermal_status": "normal",
+      "clearance_level": "AUTHORIZED"
+    }
+  },
+  {
+    "event_id": "EVT-88391",
+    "timestamp": "2026-09-28T23:14:45Z",
+    "sensor_id": "CAM_EAST_FENCE",
+    "detection_type": "yolov5_object",
+    "object_data": {
+      "class": "wildlife",
+      "color": "brown",
+      "license_plate": "NONE",
+      "confidence_score": 0.72
+    },
+    "telemetry": {
+      "speed_kmh": 5.0,
+      "thermal_status": "normal",
+      "clearance_level": "N/A"
+    }
+  },
+  {
+    "event_id": "EVT-88392-ALPHA",
+    "timestamp": "2026-09-28T23:15:00Z",
+    "sensor_id": "CAM_SOUTH_DOCK",
+    "detection_type": "yolov5_object",
+    "object_data": {
+      "class": "commercial_van",
+      "color": "white",
+      "license_plate": "KA-04-XYZ",
+      "confidence_score": 0.94
+    },
+    "telemetry": {
+      "speed_kmh": 0.0,
+      "thermal_status": "engine_idling",
+      "clearance_level": "UNAUTHORIZED"
+    }
+  }
+]
