@@ -1,0 +1,22 @@
+[
+  { "id": 1, "text": "Security Log - Sept 24, 08:15 AM: Employee vehicle (KA-01-AB12) entered Main Gate. Driver badge authorized." },
+  { "id": 2, "text": "Security Log - Sept 24, 11:30 AM: Scheduled delivery by FedEx truck (MH-12-CD34) at Loading Bay 2. Cleared." },
+  { "id": 3, "text": "Security Log - Sept 25, 02:14 AM: CAM_NORTH_GATE detected a white commercial van, license plate KA-04-XYZ. Vehicle remained stationary for 22 minutes. Thermal imaging indicated engine idling. No authorized deliveries scheduled." },
+  { "id": 4, "text": "Security Log - Sept 25, 06:45 AM: Janitorial staff arrived via South Gate. Routine clearance." },
+  { "id": 5, "text": "Security Log - Sept 25, 09:00 PM: False alarm at East Fence. Sensor triggered by local wildlife (stray dog)." },
+  { "id": 6, "text": "Security Log - Sept 26, 01:15 AM: White commercial van, license plate KA-04-XYZ, detected by CAM_PERIMETER_EAST driving slowly along the outer fence line. Speed registered at 12 km/h in a 40 km/h zone." },
+  { "id": 7, "text": "Security Log - Sept 26, 01:17 AM: Vehicle KA-04-XYZ paused for 45 seconds near access point Bravo. Departed before patrol approached." },
+  { "id": 8, "text": "Security Log - Sept 26, 10:00 AM: Routine maintenance crew (HVAC) cleared at North Gate. Badge scanned and verified." },
+  { "id": 9, "text": "Security Log - Sept 26, 02:30 PM: Unrecognized sedan (AP-09-LM56) approached Main Gate. Asked for directions and performed a U-turn. Low threat." },
+  { "id": 10, "text": "Security Log - Sept 26, 11:45 PM: CAM_SOUTH_DOCK detected thermal anomaly. Investigated by patrol; determined to be an overheating generator." },
+  { "id": 11, "text": "Security Log - Sept 27, 03:30 AM: White commercial van, license plate KA-04-XYZ, parked 100 meters outside the restricted West Perimeter fence. Remained in blind spot of CAM_WEST_02 for 18 minutes." },
+  { "id": 12, "text": "Security Log - Sept 27, 07:15 AM: Morning shift employee vehicles logged arriving at Main Parking Lot. All badges valid." },
+  { "id": 13, "text": "Security Log - Sept 27, 12:00 PM: Food delivery service arrived at Front Desk. Temporary pass issued." },
+  { "id": 14, "text": "Security Log - Sept 27, 04:45 PM: Heavy transport truck (TS-07-PQ89) cleared for aerospace component pickup at Bay 4." },
+  { "id": 15, "text": "Security Log - Sept 27, 08:20 PM: Perimeter motion sensor 4 triggered. Cause determined to be heavy wind moving loose debris." },
+  { "id": 16, "text": "Security Log - Sept 28, 01:10 AM: CAM_NORTH_GATE detected vehicle KA-04-XYZ passing by without stopping. Vehicle headlights were turned off during transit." },
+  { "id": 17, "text": "Security Log - Sept 28, 05:00 AM: Shift change completed successfully. No anomalies logged during morning handover." },
+  { "id": 18, "text": "Security Log - Sept 28, 09:15 AM: Official inspection vehicle (Govt plates) cleared for entry at Main Gate." },
+  { "id": 19, "text": "Context Rule: Any vehicle exhibiting repeated late-night loitering, fence-line probing, or headlights-off transit across multiple days must be flagged as a 'High-Risk Reconnaissance Threat'." },
+  { "id": 20, "text": "Context Rule: Security operators must be immediately notified to dispatch intercept teams if a High-Risk Reconnaissance Threat approaches the South Dock." }
+]

@@ -1,0 +1,29 @@
+{
+  "name": "sentinel-ai-backend",
+  "version": "1.0.0",
+  "description": "Sentinel-AI standalone backend — Groq + Hindsight powered cybersecurity AI API",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node -e \"require('./scripts/seedMemories').seedMemories()\"",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": ["sentinel-ai", "cybersecurity", "groq", "hindsight", "AI"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vectorize-io/hindsight-client": "^0.10.1",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.6.0",
+    "uuid": "^14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
