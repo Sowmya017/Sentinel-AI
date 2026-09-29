@@ -15,7 +15,7 @@ Sentinel-AI leverages an Edge-to-Dashboard architecture powered by **Hindsight's
 3. **Memory-Augmented Threat Assessment:** By passing edge logs into Hindsight's `retain()` API, the system builds a timeline. When an operator queries the copilot, the `recall()` API fetches the vehicle's historical context, allowing the Groq LLM to warn operators of multi-day threat patterns.
 4.
 5. ## Tech Stack
-* **Frontend:** React (Vite), Tailwind CSS (Dark Mode UI)
+* **Frontend:** React (Vite), Tailwind CSS (Light Mode UI)
 * **AI Memory:** Hindsight API (`retain` and `recall` endpoints)
 * **LLM Reasoning:** Groq API (`qwen3-32b` / `gpt-oss-120b`)
 * **Data Simulation:** Node.js JSON payload generation
